@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { ShoppingBag, MapPin, Phone, Instagram, Facebook, Clock, Star, Menu as MenuIcon, X, ChevronRight, CheckCircle, Mail, ChefHat, Lock, KeyRound, ArrowRight, Plus, Briefcase, UserCircle, Send } from 'lucide-react';
-import { products as initialProducts } from './data/products';
+// import { products as initialProducts } from './data/products';
+const initialProducts = [];
 import { shopConfig } from './data/siteConfig';
 import { CartItem, Category, ViewState, Product, ProUser, StaffMember, ConnectionLog } from './types';
 import { dataService } from './services/dataService';
